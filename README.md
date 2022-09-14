@@ -13,11 +13,11 @@
 
 ## Live Demo
 
-[Live Demo Link](https://kennyegun24.github.io/Futuristic-Gyms/)
+[Live Demo Link]()
 
 ## Loom link
 
-[Loom link]()
+[Loom link](https://www.loom.com/share/daf924fb7d744b568f13ccb7376f7d30)
 
 ## Getting Started
 
@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-**You can edit codes and make changes, dont forget to give credits to me**
+**You can edit codes and make changes, don't forget to give credits to me**
 
 ### Run tests
 
@@ -50,7 +50,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author1**
 
 - GitHub: [@Maxwell011](https://github.com/Maxwell011)
-- Twitter: [@Maxwell011]()
+- Twitter: [@Maxwell011](maxwell011)
 - LinkedIn: [@Maxwell011](https://www.linkedin.com/in/chukwuemeka-orji-50b766241/)
 
 Contributions, issues, and feature requests are welcome !
