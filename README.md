@@ -3,7 +3,7 @@
 # Multicultural Music Global Summit
 
 > Multicultural Music
-> This is a project based on a summit called "Multicultural Music Global Summit". All contents and name of brand were created by me.
+> This is a website based on a summit called "Multicultural Music Global Summit".This is a capstone project from Microverse Module one and all contents and name of brand were created by me.
 
 ## Built With
 
@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://maxwell011.github.io/Music-Conference/)
 
 ## Loom link
 
@@ -35,6 +35,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
+**To set up linters type npm i in git bash or IDE terminal**
 **The folder will then be installed in your machine.**
 
 ### Usage
@@ -47,7 +48,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Orji Maxwell**
 
 - GitHub: [@Maxwell011](https://github.com/Maxwell011)
 - Twitter: [@Maxwell011](maxwell011)
@@ -66,7 +67,3 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 Codes written by me. Designed Cindy Shin the author of the original [Design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
