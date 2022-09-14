@@ -33,11 +33,10 @@ function emailFun() {
     email.style.border = '1px solid red';
     return false;
   }
-  if (
-    !emails.match(
-      /^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]*\.[a-z]+(?:\.[a-z-0-9-]+)*$/
-    )
-  ) {
+  // eslint-disable-next-line operator-linebreak
+  const newLocal =
+    /^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]*\.[a-z]+(?:\.[a-z-0-9-]+)*$/;
+  if (!emails.match(newLocal)) {
     emailErr.innerHTML = '<i class="fa-solid fa-circle-xmark"></i>';
     emailErr.style.color = 'red';
     email.style.border = '1px solid red';
