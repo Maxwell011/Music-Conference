@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Conference</title>
+    <!-- link -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end of fonts -->
+    <!-- fontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="first-nav">
+        <div class="first-nav-div">
+          <a href="" class="facebook"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="logout">Logout</a>
+          <a href="#" class="english">English</a>
+        </div>
+      </nav>
+      <nav class="nav">
+        <h2 class="logo">
+          <a href="home.html">Multicultural Music</a>
+        </h2>
+
+        <nav class="nav-menu">
+          <ul class="menu">
+            <li class="list"><a href="home.html">Home</a></li>
+            <li class="list"><a href="about.html">About</a></li>
+            <li class="list"><a href="#services">Speakers</a></li>
+            <li class="list"><a href="contact.html">Contact</a></li>
+            <li class="list"><a href="#">Extras</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <div class="ham1"></div>
+          <div class="ham2"></div>
+          <div class="ham3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="first-section" id="home">
+        <h2 class="heading">
+          Looking for a music summit that covers everything about growing your
+          music career and teaching you all types of music ?
+        </h2>
+        <h2 class="sec-heading">Multicultural Music Global Summit</h2>
+        <p class="heading-paragraph">
+          The event is a huge,joyful celebration believing in the value of
+          openness, sharing and creating a positive change boasting a lineup of
+          2500 artists, 600 speakers & 1000 events in 200 venues with people
+          from all over 80 countries is taking place in one of the most colorful
+          cities on the globe, Cannes, France.
+        </p>
+        <h2 class="third-heading">17(FRI) - 29.07.2022(SUN)</h2>
+        <p class="heading-paragraph2">
+          Located in the beautiful setting of the Palais Des Festivals
+          Conference Centre, Cannes, France.
+        </p>
+      </section>
+
+      <!-- Program section -->
+      <section class="second-section" id="services">
+        <h2 class="sec2-heading">Main Program</h2>
+        <hr class="line1" />
+        <div class="cards">
+          <div class="card1 card">
+            <i class="fa fa-desktop screen-icon" aria-hidden="true"></i>
+            <h3 class="program">Lecture</h3>
+            <p>
+              Access exclusive keynote sessions with top speakers and gain
+              valuable insight from industry professionals.
+            </p>
+          </div>
+          <div class="card2 card">
+            <i class="fa-solid fa-coins"></i>
+            <h3 class="program">Exhibition</h3>
+            <p>
+              Pitch your music directly to executive supervisors and buyers
+              looking to use music in film, TV, and watch the best band and best
+              music for commercial communications and more.
+            </p>
+          </div>
+          <div class="card3 card">
+            <i class="fa-solid fa-comment-dollar"></i>
+            <h3 class="program">Forum</h3>
+            <p>
+              Get access to meet,greet & Q&As with artists and the industry’s
+              leading professionals the speakers and affiliate yourself with
+              some of the most influential people in the game
+            </p>
+          </div>
+          <div class="card4 card">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <h3 class="program">Workshop</h3>
+            <p>
+              Learn about every aspect of the music business at the renowned
+              summit and take part in exciting workshops that teaches all you
+              need to know about music and get valuable feedback on your music
+              with one on one sessions.
+            </p>
+          </div>
+          <div class="card5 card">
+            <i class="fa-solid fa-link"></i>
+            <h3 class="program">Initiate</h3>
+            <p>
+              Be one step ahead with understanding new technology and how it’s
+              changing the music landscape Affiliate yourself with the
+              top-performing rights organization and groups for songwriters
+              around the world.
+            </p>
+          </div>
+        </div>
+
+        <!-- join button -->
+        <h4 class="second-section-end">SEE FULL PROGRAM</h4>
+        <h4 class="second-section-end-mobile">Click here to register</h4>
+
+        <form
+          action="https://formspree.io/f/meqdojoz"
+          method="post"
+          class="form"
+        >
+          <div class="toggle">
+            <div class="hamm1"></div>
+            <div class="hamm2"></div>
+            <div class="hamm3"></div>
+          </div>
+          <input
+            type="text"
+            onkeyup="nameMss()"
+            class="name"
+            id="name"
+            maxlength="20"
+            placeholder="Enter your name"
+            size="30"
+          />
+          <br />
+          <p class="nameErr"></p>
+          <br />
+          <input
+            type="email"
+            onkeyup="emailMss()"
+            class="email"
+            id="email"
+            placeholder="Email@"
+            size="30"
+          />
+          <br />
+          <p class="emailErr"></p>
+          <br />
+          <textarea
+            name="textarea"
+            onkeyup="textareaMss()"
+            id="textarea"
+            class="textarea"
+            cols="30"
+            rows="10"
+            maxlength="300"
+            placeholder="enter message"
+          ></textarea>
+          <p class="textErr"></p>
+          <br />
+          <button
+            type="submit"
+            id="button"
+            class="btn2"
+            onclick="return submitMss()"
+          >
+            Submit
+          </button>
+          <p class="submitErr"></p>
+        </form>
+      </section>
+
+      <!-- Featured speaker section -->
+      <section class="third-section">
+        <h2 class="third-section-header">Featured Speakers</h2>
+        <hr class="line1" />
+
+        <div class="speakers"></div>
+        <p class="button">
+          more &nbsp;
+          <a class="btn"> &or; </a>
+        </p>
+      </section>
+    </main>
+
+    <!-- sponsors and partners  -->
+    <footer class="footer">
+      <div class="sponsorship">
+        <div class="live">
+          <h2>Our Sponsors and Partners</h2>
+          <hr class="line1" />
+        </div>
+        <div class="companies">
+          <span><i class="fab fa-google"></i>Google</span>
+          <span><i class="fab fa-airbnb"></i>airbnb</span>
+          <span><i class="fab fa-spotify"></i>Spotify</span>
+          <span><i class="fab fa-apple"></i>Music</span>
+          <span><i class="fab fa-youtube"></i>Youtube Music</span>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer-bottom">
+        <h1 class="footer-bottom-header">Multicultural</h1>
+
+        <p class="footer-bottom-paragraph">
+          @2022, Authorized by health governing body.
+          <br />
+          &copy; Terms and Conditions apply.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="index.js"></script>
+  </body>
+</html>
