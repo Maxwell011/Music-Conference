@@ -126,10 +126,6 @@ a {
   display: none;
 }
 
-.list:hover {
-  color: #ec5242;
-}
-
 /* ---------------nav-meu ends --------------- */
 .first-section {
   padding-left: 10%;
@@ -239,7 +235,6 @@ footer div {
 
 .cards div:hover {
   border: #fff solid 2px;
-  border-radius: 6px solid #ec5242;
 }
 
 footer h3 {
@@ -644,7 +639,6 @@ footer h2 {
     display: flex;
     font-size: 12px;
     text-align: center;
-    /* margin-top: -80px; */
     border: 2px solid #d3d3d3;
     color: #313232;
     cursor: pointer;

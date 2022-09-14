@@ -98,13 +98,6 @@ speakers.forEach((speaker) => {
   cover.append(div);
 });
 
-function resetMenu() {
-  if (window.innerWidth > 768) {
-    sidebar.style.display = 'none';
-  }
-}
-window.addEventListener('resize', resetMenu);
-
 // see more
 const speakDiv = document.querySelectorAll('.hide');
 const btn = document.querySelector('.button');
